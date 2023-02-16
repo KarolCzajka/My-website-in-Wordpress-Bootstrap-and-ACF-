@@ -1,0 +1,562 @@
+/*
+Theme Name: Arsha
+Theme URI: https://them.es/starter
+Author: Karol Czajka
+Author URI: https://them.es/
+Description: 
+Version: 3.3.2
+Requires at least: 5.0
+Tested up to: 6.1
+Requires PHP: 7.2
+License: GPL version 2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0
+Tags: custom-background, custom-colors, featured-images, flexible-header, microformats, post-formats, rtl-language-support, theme-options, translation-ready, accessibility-ready
+Text Domain: arsha
+*/
+
+/* Don't overwrite this file. Compile "/assets/main.scss" to "/assets/dist/main.css" */
+
+
+/* From http://codex.wordpress.org/CSS */
+.header {
+    background-color: #3e5a8a;
+}
+.carousel {
+
+	color:white; 
+	padding-top: 5%;
+    background-color: #3e5a8a;
+    padding-bottom: 100px;
+}
+#container_carousel > div > div:nth-child(1) {
+    padding-top: 10%;
+}
+#container_carousel > div > div:nth-child(1) > a.btn {
+	font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #95b5c4;
+}
+#container_carousel > div > div:nth-child(1) > a.btn2 {
+	font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: px 0 0 0;
+    color: #fff;
+    background: transparent;
+ }
+ #container_carousel > div > div:nth-child(1) > h2 {
+    font-size: 50px;
+    color:white;
+ }
+.logos {
+    background-color: #f3f5fa;
+}
+body > section.logos img {
+    max-width: 70%;
+    padding-top: 7%;
+}
+#carousel p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+#carousel{
+    background: #3e5a8a;
+}
+#logos {
+    background-color: #f3f5fa;
+}
+#logos img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding:15px 0;
+}
+#logos img:hover {
+    filter:grayscale(1);
+}
+#header {
+    background-color: #3e5a8a !important;
+}
+.nav-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{ color: #fff !important}
+.navbar-brand{ font-weight: bold; color: #fff !important; text-transform: uppercase; }
+.navbar-expand-md .navbar-nav{ display: flex; justify-content: flex-end; margin: 0; width: 100%; }
+#about_us { 
+    padding-bottom: 50px;
+
+}
+.btn3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #47b2e4;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #47b2e4;
+    background-color: #fff;
+}
+#about_us .about-left {
+display: flex!important;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+}
+#about_us > div > div > div > h2 {
+    padding-top: 35px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+#about_us p ,li 
+{
+    font-size: large;
+}
+#accordion1 .accordeon-image img {
+    width: 500px;
+    height: auto;
+}
+#accordion1 {
+    padding-top: 50px;
+    background-color: #f3f5fa;
+    padding-bottom: 60px;
+    height: auto;
+}
+#accordionExample{
+    width: 90%;
+}
+#accordion1 .accordeon-1 h3 {
+color: #37517e; 
+font-size: 34px;}
+#progres_bar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#progres_bar > div > div > div:nth-child(1) > img {
+    width: auto;
+}
+#progres_bar > div > div > div:nth-child(2) > h3 {
+    font-weight: 700;
+    font-size:35px;
+    color: #37517e;
+    font-family: "Poppins", sans-serif;
+    text:bold;
+}
+#services {
+    height: auto;
+    background-color: #f3f5fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#services > div > div.row.row-box-icon-t img{
+    height: auto;
+    width: 20%;
+}
+
+#services > div > div:nth-child(2) > div > div > div > i > img {
+
+}
+#services > div > div:nth-child(2) > div > div
+{
+    background-color: white;
+
+    width: 300px;
+
+}
+.row-box-icon-t{
+    position: relative;
+}
+.box-icon-t{
+    position: relative;
+}
+.box-icon-t:hover{
+    top: -15px;
+    color: red;
+    animation-duration: 4s;
+}
+#services .icon-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#services > div > div:nth-child(1) > div > h3 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+#portfolio{
+    padding: 50px 50px;
+    background: #ffffff;
+
+}
+
+
+#call_to_action {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(http://arsha/wp-content/uploads/2023/01/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+    color:white;
+}
+#call_to_action .call-left h3{
+    font-size:xx-large;
+    text:bold;
+}
+#call_to_action .call-richt button{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+#home-tab,#profile-tab, #Kontakt-tab {
+    color: black !important;
+}
+#myTab {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+#portfolio > div > h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+#team {
+    background-color: #f3f5fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#team > div > div > div.row {
+    background-color: #f3f5fa;
+}
+#team img {
+    border-radius:50%;
+}
+#team .team-profil .profil{
+    position: relative;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border: 100px;
+   border-radius: 5px;
+    background: white;
+    transition: 0.5s;
+}
+
+.image_team {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#media img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+}
+#team .team_12 h3 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+#people{
+ padding: 30px 30px 30px 30px;
+}
+#pricing .price {
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
+    background: #fff;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+#pricing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.price {
+    padding: 30px 30px 30px 30px;
+
+}
+#pricing .pricing_12 h3 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+#pricing h5 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #37517e;
+}
+#pricing {
+    padding-top: 50px;
+}
+#pricing h4 {
+    font-size: 3rem;
+}
+#pricing h3 {
+    font-size: 1.2rem ;
+    color: #5480cc;
+}
+#pricing {
+    padding-bottom: 50px;
+}
+#pricing .start {    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    color: #47b2e4;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;}
+#faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    background-color: #f3f5fa;
+    border:none;
+}
+#faq h3 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+}
+#faq #accordionExample{
+    padding-top: 40px;
+    width:auto;
+}
+#faq .accordion-header {
+    font-size: larger;
+}
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#contact h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    text-align: center;
+}
+#contact .paragraf {
+    text-align: center;
+    padding-bottom: 40px;
+ }
+
+#contact .contact-info {
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+}
+#contact .contact-form {
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 10%);
+}
+
+#contact .img-fluid {
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+
+    
+}
+img {max-width: 100%;
+height: auto;}
+
+.wpcf7, label, button, input, optgroup, select, textarea{width: 100%;}
+
+#wpcf7-f44-o1 > form > p:nth-child(6) > input {
+    background: #47b2e4;
+    border: 0;
+    padding: 12px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+
+}
+#newsletter {
+    background-color: #f3f5fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#newsletter > div > div > div > h1{
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    text-align: center;
+}
+#newsletter .Subscribe_box{   
+     margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 6%);
+    text-align: left;}
+#newsletter > div > div > div > div > input[type=submit]:nth-child(2){    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+     border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #47b2e4;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rg}
+#newsletter > div > div > div > div > input[type=email]:nth-child(1) {
+    width: 100%;
+    border:none;
+}
+#newsletter > div {
+    text-align: center!important;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+#newsletter > div > div > div > div > input[type=submit]:nth-child(2){
+    width: 30%;
+}
+
+/* Dokumentacja */
+/* https://www.w3schools.com/cssref/css3_pr_mediaquery.php */
+@media screen and (max-width: 992px)
+ {
+/* body{background: red !important;} */
+.team_img img {max-width: 25%;}
+.profil {text-align: center;}
+#services > div > div.row.row-box-icon-t {display: inline-block;}
+.services_box {padding-bottom: 20px;}
+} 
+
+.carousel-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-image img{
+    width: auto;
+    height: 500px;
+}
+.carousel-text h2 {
+    font-size: 40px;
+}
+#carousel .btn{
+	font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #95b5c4;
+}
+.btn2 {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: px 0 0 0;
+    color: #fff;
+    background: transparent;
+}
